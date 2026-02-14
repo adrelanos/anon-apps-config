@@ -10,8 +10,8 @@
 [GPG Settings]
 ## Pre-configured first time wizard.
 gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
-## Pre-configured GPG v2 as default.
-gpg_bin_path[$e]=gpg2
+## Pre-configured gpg-sq as default.
+gpg_bin_path[$e]=gpg-sq
 
 ## Pre-configured first time wizard.
 [General Options]
