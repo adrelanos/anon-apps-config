@@ -1,3 +1,9 @@
+commit 3b09c2afe5cb71ef34a43e64cbeb59687d34d16a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Feb 14 12:45:09 2026 +0000
+
+    bumped changelog version
+
 commit b020998d3caec23ae4068ae97966f489513d9dc8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Feb 14 05:49:30 2026 -0500
@@ -15,7 +21,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jan 28 03:43:34 2026 -0500
 
     migrate wlr-resize-watcher to anon-ws-base-files
-    
+
     so it applies to Whonix-Workstation only
 
 commit b78c061f3dfae9300bb9b94fa3332185c97e26f8
@@ -61,7 +67,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:34:52 2026 -0500
 
     Merge pull request #19 from Nurmagoz/patch-10
-    
+
     Update 40_anon-apps-config.conf Links
 
 commit 974a02814ce2a222b999c1548443f3c75058b7e3
@@ -70,7 +76,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:24:42 2026 -0500
 
     Merge pull request #18 from Nurmagoz/patch-9
-    
+
     Update ksmserverrc link
 
 commit 745ebd5c8d84808a4b52ff131335c803654a477e
@@ -79,7 +85,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:24:13 2026 -0500
 
     Merge pull request #17 from Nurmagoz/patch-8
-    
+
     Update 90longer-timeouts link
 
 commit e8b09d087295454858d7b391084384407df5b25a
@@ -88,7 +94,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:23:52 2026 -0500
 
     Merge pull request #16 from Nurmagoz/patch-7
-    
+
     Update hexchat.conf Links
 
 commit 376e190d6db93225199c25d05ecccfa5a0dbd725
@@ -97,7 +103,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:20:41 2026 -0500
 
     Merge pull request #15 from Nurmagoz/patch-6
-    
+
     Link fixing
 
 commit be525bf3ee21890096f7d6f2d13498724dc19ae6
@@ -106,7 +112,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:19:44 2026 -0500
 
     Merge pull request #14 from Nurmagoz/patch-5
-    
+
     Link fixing
 
 commit 9471ee0c73dc52bb5c6446f132ae766ada2eefcf
@@ -126,7 +132,7 @@ Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
 Date:   Wed Dec 31 19:37:38 2025 +0000
 
     Update 90longer-timeouts link
-    
+
     added s to http
 
 commit 24de1c5d38a2cd6d91d2614f838c535b712953ae
@@ -189,9 +195,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Dec 12 07:56:27 2025 -0500
 
     no longer apply VLC configuration `vout=xcb_x11`
-    
+
     revert https://forums.whonix.org/t/vlc-x11-decoding-by-default/18636
-    
+
     due to https://forums.whonix.org/t/port-to-wayland/17380
 
 commit 3771c8bebf08247e7073139a44efb2f6fb75c19f
@@ -465,7 +471,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Dec 7 07:44:51 2022 -0500
 
     Merge pull request #12 from eyedeekay/eepsite-docroot-disable-redux
-    
+
     Eepsite docroot disable redux
 
 commit 5492e70c3a1f9c4c5c63064b72664d4ade3013e3
@@ -512,7 +518,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Dec 3 11:08:01 2022 -0500
 
     Merge pull request #10 from eyedeekay/hosts-txt-only
-    
+
     PR 1/2: add a hosts.txt file
     https://geti2p.net/hosts.txt
 
@@ -563,7 +569,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Nov 30 14:28:41 2022 -0500
 
     port I2P config to systemd tmpfiles.d
-    
+
     https://forums.whonix.org/t/i2p-client-inside-whonix-workstation-issues/15890/22
 
 commit aa06cadbb9c56af47d78e145ae9d5916d7b7c2d5
@@ -609,7 +615,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Nov 30 14:12:42 2022 -0500
 
     Merge pull request #8 from eyedeekay/i2p-auto-configuration
-    
+
     I2P auto configuration
 
 commit c5a3bc549edba258f57ed8081199036fcb7534c7
@@ -667,7 +673,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Oct 26 05:31:38 2022 -0400
 
     Merge pull request #7 from TNTBOMBOM/patch-4
-    
+
     Disable Frequent connection to news letter server
 
 commit f8aa6c26e8c38f3504a5540aad6a920d421f69bb
@@ -675,7 +681,7 @@ Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
 Date:   Tue Oct 25 20:34:59 2022 +0000
 
     Disable Frequent connection to news letter server
-    
+
     No need to make unnecessary connections to external server for each couple of minutes. Harmful anonymity practice.
 
 commit e94473549f3cd7024fce55059d9398412c4dbc86
@@ -697,7 +703,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Oct 25 09:09:47 2022 -0400
 
     Merge pull request #6 from TNTBOMBOM/patch-3
-    
+
     Update router.config.anondist
 
 commit 1556b5f152622cb72045e800ee13df03e50ca420
@@ -705,7 +711,7 @@ Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
 Date:   Mon Oct 24 22:52:17 2022 +0000
 
     Update router.config.anondist
-    
+
     Since I2P going to run over Tor which is a socks5 then reseeding should be over socks5 as well.
 
 commit 8a87cc3ceb76a5d57e7cc74b89bb04407de0afbd
@@ -719,11 +725,11 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Oct 3 05:18:45 2022 -0400
 
     cleanup
-    
+
     remove `pref("extensions.torbirdy.gpg_already_torified", true);`
-    
+
     since torbirdy no longer exists
-    
+
     https://forums.whonix.org/t/torbirdy-replacement/8782/50
 
 commit 275f21bb5f1841bec3e42e55c239e78224959478
@@ -736,7 +742,7 @@ commit 49ecbc1c2a8d9fc20b5784a8c81c06e685449b86
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 26 07:57:40 2022 -0400
 
-    pref(“mailnews.start_page.enabled”, false);
+    pref(_mailnews.start_page.enabled_, false);
 
 commit 60036345bc93d55db0980b649fae2b6330f7d8d2
 Merge: acb55f3 e25fc83
@@ -751,7 +757,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 26 07:52:36 2022 -0400
 
     Merge pull request #5 from HulaHoop0/patch-2
-    
+
     Drop everything related to  Enigmail
 
 commit cc05f026dc217ce32e1d10df6fd6ac5b8c9ba2a1
@@ -760,7 +766,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 26 07:52:02 2022 -0400
 
     Merge pull request #4 from HulaHoop0/patch-1
-    
+
     Updated to reflect Tails version as of 2022
 
 commit 906f86ba462ef8fb0a8f84a2dc540511fe18fb88
@@ -768,7 +774,7 @@ Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
 Date:   Mon Sep 26 08:25:39 2022 +0000
 
     Drop everything related to  Enigmail
-    
+
     Updated to reflect Tails version as of 2022
 
 commit 113998b6453c61c8861eb0cae80e55d2624f8ebb
@@ -796,7 +802,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 30 15:51:02 2022 -0400
 
     Merge pull request #3 from nyxnor/oj-update
-    
+
     update onionjuggler conf
 
 commit b0654176ae94091eb4e0920ec1a1e15d8b2d2ecc
@@ -816,9 +822,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Aug 22 06:58:57 2022 -0400
 
     chmod +x etc/onionjuggler/conf.d/30_whonix.conf
-    
+
     to fix lintian warning
-    
+
     W: anon-apps-config: script-not-executable etc/onionjuggler/conf.d/30_whonix.conf
 
 commit 21048975be485c8ecb3531d3d6e653e5b14186c2
@@ -834,7 +840,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Aug 22 06:57:52 2022 -0400
 
     Merge pull request #2 from nyxnor/onionjuggler-inclusion
-    
+
     add onionjuggler whonix conf
 
 commit 73aa4a4668a4d1d55ac9f454217dab3c2d0ca04b
@@ -862,7 +868,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jul 25 13:05:48 2022 -0400
 
     Merge pull request #1 from TNTBOMBOM/patch-2
-    
+
     disable ntp time check
 
 commit dc2b157e61dfb7b324a3f61589c75c9acca23ac8
@@ -870,7 +876,7 @@ Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
 Date:   Mon Jul 25 16:17:36 2022 +0000
 
     disable ntp time check
-    
+
     disabled time check since it uses ntp which doesnt exist in whonix. (it has no effect on the connection)
 
 commit e2c8a3de94b6180fcc99e0f2d3fa5fab009f1c2f
@@ -926,13 +932,13 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Dec 15 06:19:22 2021 -0500
 
     disable Thunderbird default homepage by default
-    
+
     to avoid https connection
-    
+
     for better security hardening
-    
+
     Thanks to @HulaHoop for the suggestion!
-    
+
     https://forums.whonix.org/t/canning-thunderbirds-startpage/13007/1
 
 commit dc1818b1dae0b4fd7c14dcb99f8b5ebe5346987d
@@ -1024,7 +1030,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon May 31 03:21:26 2021 -0400
 
     disable gpg default key servers
-    
+
     https://forums.whonix.org/t/gpg-recv-keys-fails-no-longer-use-keyservers-for-anything/5607/8
 
 commit cdafef92d13269f18dfb0070a44ac477ad0466ad
@@ -1189,7 +1195,7 @@ Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
 Date:   Thu Jul 30 12:00:39 2020 +0000
 
     thunderbird.cfg activated, socksport adjusted,
-    
+
     POP3 default selection is broken and Tails removed their patch: https://gitlab.tails.boum.org/tails/tails/-/issues/17276. Removed dummy pref.
 
 commit e4e08b50c60353cce6c770c251bfd5a82e4048af
@@ -1241,9 +1247,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 26 06:42:04 2020 -0400
 
     rename to /etc/thunderbird/pref/40_thunderbird.js
-    
+
     to fix packaging conflict
-    
+
     https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/18
 
 commit 004e423319d94fe192afb5487391b196999b5617
@@ -1265,7 +1271,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 26 08:49:22 2020 +0000
 
     Merge pull request #15 from Whonix/HulaHoop0-patch-2
-    
+
     Create thunderbird.cfg
 
 commit 4c41aa146bec92f0ded5f7f834734a3b60c2c757
@@ -1281,7 +1287,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 26 08:47:17 2020 +0000
 
     Merge pull request #14 from Whonix/HulaHoop0-patch-1
-    
+
     Create thunderbird.js
 
 commit 81eb0218bd82cf82b732bcb6c1eaf19742f6c531
@@ -1289,7 +1295,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 26 04:46:25 2020 -0400
 
     /etc/thunderbird copyright
-    
+
     https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/15
 
 commit 48e7600d84816135e0a0fd746b4770cd560673bc
@@ -1297,7 +1303,7 @@ Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
 Date:   Sat Jul 25 13:33:59 2020 +0000
 
     Create thunderbird.cfg
-    
+
     Enhanced Thunderbird anonymity and security settings.
 
 commit 81c4ee1fa179b785dfd2135cdae97803cd6d0f24
@@ -1311,7 +1317,7 @@ Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
 Date:   Sat Jul 25 13:19:30 2020 +0000
 
     Create userChrome.css
-    
+
     Hides chat button from interface
 
 commit 58ee2fe4567fc22db3534f5784d704e03ffbcc58
@@ -1446,7 +1452,7 @@ Date:   Mon Mar 16 09:00:52 2020 -0400
 
     Bisq: avoid Tor over Tor by
     creating a dummy Tor binary `/home/user/.local/share/Bisq/btc_mainnet/tor/tor`.
-    
+
     https://www.whonix.org/wiki/Bisq
 
 commit 9002216058dbf8d7049f0263dfcab68ef62321fb
@@ -1460,7 +1466,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 14 03:35:18 2020 -0500
 
     Make systemd drop-in config snippets take effect.
-    
+
     for I2P pre-configuration
 
 commit 6cfd1afcf1522d9bbbe7f0e5c0b5a63adaafb844
@@ -1482,7 +1488,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Feb 13 15:03:04 2020 +0000
 
     Merge pull request #13 from Thinkablemell0w/patch-1
-    
+
     skip First startup wizard
 
 commit 16cd3d822b3cfbe15314b43a0d57d911da2ac29d
@@ -1490,7 +1496,7 @@ Author: Thinkablemell0w <60707409+Thinkablemell0w@users.noreply.github.com>
 Date:   Thu Feb 13 15:40:42 2020 +0100
 
     skip First startup wizard
-    
+
     skip First startup wizard
 
 commit 7a44c22cdaecb9e5cd445b8f7a0d47e6504851ef
@@ -1504,7 +1510,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Feb 13 07:01:07 2020 -0500
 
     not enable / start i2p by default
-    
+
     https://forums.whonix.org/t/installation-and-fix-of-i2p-inside-whonix-workstation-by-default/8610
 
 commit a8252817a8d348d146c7216952e8b76e1e656f72
@@ -1518,7 +1524,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 5 01:04:40 2020 -0500
 
     /usr/share/i2p/router.config config-package-dev displace
-    
+
     https://forums.whonix.org/t/i2p-inside-whonix-workstation-broken/8610/83
 
 commit 76396e12492d20e7b881386ee7a477142f11cd07
@@ -1534,7 +1540,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 5 05:55:07 2020 +0000
 
     Merge pull request #12 from HulaHoop0/patch-6
-    
+
     Create router.config
 
 commit 0a934405825d32f3034eab3862e67017ad19e967
@@ -1543,7 +1549,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 5 05:54:50 2020 +0000
 
     Merge pull request #11 from HulaHoop0/patch-5
-    
+
     Delete router.config
 
 commit f7ddb2d35064be333a31220c123945c9939cc23a
@@ -1564,7 +1570,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Feb 4 05:24:15 2020 +0000
 
     Merge pull request #10 from HulaHoop0/patch-4
-    
+
     router.sharePercentage=0
 
 commit c9271f705a8329b81e008f0e032dd726524bbad5
@@ -1592,7 +1598,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Feb 3 13:38:13 2020 +0000
 
     Merge pull request #7 from HulaHoop0/patch-1
-    
+
     Optimized I2P router.config
 
 commit 34c3fec2904c88a8b6a14bfadcb799010d12c8c5
@@ -1614,7 +1620,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Feb 2 18:30:12 2020 +0000
 
     Merge pull request #9 from HulaHoop0/patch-3
-    
+
     clean-up
 
 commit ad24e9287d47546d774b2ac52c9702d361172dab
@@ -1642,7 +1648,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Feb 2 16:26:40 2020 +0000
 
     Merge pull request #8 from HulaHoop0/patch-2
-    
+
     Update config_anon-apps-config.conf
 
 commit 0384581694c33c27f4b9b2f743c4a5e9b7e0d349
@@ -1656,7 +1662,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Feb 2 03:43:25 2020 -0500
 
     add empty privoxy config for i2p inside Whonix-Workstation
-    
+
     https://forums.whonix.org/t/i2p-inside-whonix-workstation-broken/8610/63
 
 commit 5bf0730002167663cb546d297bdded8ffe5562b7
@@ -1714,7 +1720,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Dec 21 18:11:30 2019 +0000
 
     Merge pull request #6 from madaidan/ping-capabilities
-    
+
     Remove ping capabilities
 
 commit 014df39060d950e02ccad89b684efda7e697cc93
@@ -1770,11 +1776,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 8 07:29:23 2019 -0400
 
     comment out sddm autologin
-    
+
     keep comment for usability
-    
+
     does not belong here
-    
+
     also Whonix is no longer based on KDE
 
 commit a5fc5b05b4325c17a9f13181d04af8b87ba68166
@@ -1854,7 +1860,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Apr 14 13:01:08 2019 +0000
 
     add tox:
-    
+
     - force TCP
     - disable LAN discovery
 
@@ -1905,18 +1911,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:31:04 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -1931,12 +1937,12 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Aug 29 10:16:15 2018 -0400
 
     disable KDE session restoration
-    
+
     To prevent issue:
     No command arguments supplied!
     Usage: kdesudo [-u ]
-    KdeSudo will now exit…
-    
+    KdeSudo will now exit_
+
     https://forums.whonix.org/t/kdesudo-error-popup-window-sdwdate-gui
 
 commit dadffce09a9b8298acab9e7666d6b7d522f02a05
@@ -2012,7 +2018,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jul 19 21:27:24 2018 +0800
 
     Merge pull request #5 from HulaHoopWhonix/patch-4
-    
+
     Pre-configured GPG v2 as default
 
 commit 63d5b09a79b13bcd7849fe0784abda30c76a8aec
@@ -2040,7 +2046,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 1 13:36:56 2018 +0800
 
     Merge pull request #4 from HulaHoopWhonix/patch-3
-    
+
     Comment video output
 
 commit 295b0702221cb4bc2116379fe0861cc6367bfa22
@@ -2054,11 +2060,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jun 24 06:29:16 2018 +0000
 
     hide gajim plugin installer plugin for better security
-    
+
     https://phabricator.whonix.org/T694
-    
+
     https://forums.whonix.org/t/gajim-messenger
-    
+
     https://www.whonix.org/wiki/Dev/Gajim
 
 commit 916bec8ab6294ed1a908ce46513fdbbd63958803
@@ -2080,7 +2086,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jun 23 15:09:59 2018 +0800
 
     Merge pull request #3 from HulaHoopWhonix/patch-2
-    
+
     Set video output to X11
 
 commit 4a882d8b5573839d0e8bbad1a06da1d448cddba6
@@ -2088,7 +2094,7 @@ Author: HulaHoopWhonix <bancfc@openmailbox.org>
 Date:   Fri Jun 22 14:44:07 2018 +0000
 
     Set video output to X11
-    
+
     VLC should render out of the box without any manual workarounds.
 
 commit 75c68ecba95de100d3767672d202451db625ee89
@@ -2110,7 +2116,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 16 17:23:14 2018 +0200
 
     Merge pull request #2 from HulaHoopWhonix/patch-1
-    
+
     Disable 'Obey DRM limitations' in Okular
 
 commit d3659fe3de243a799a76bee147f393e06426adbe
@@ -2130,7 +2136,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 9 09:42:48 2018 +0000
 
     disable systemd resolved FallbackDNS (which defaults to Google)
-    
+
     https://phabricator.whonix.org/T793
 
 commit 58349183e7768af31d39a106e1dde2e347716efd
@@ -2146,7 +2152,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 11 12:44:26 2018 +0200
 
     Merge pull request #1 from Tibo-le-canard/master
-    
+
     VLC disable metadata
 
 commit ff0b1f549a0d82bd3132dfb1db1e65ca011570b1
@@ -2172,9 +2178,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Mar 8 14:46:44 2018 +0000
 
     merge pkg-manager-no-autoupdate into anon-apps-config
-    
+
     to have fewer XDG environment variables entries
-    
+
     to avoid segfault due to environment variables bug
 
 commit 357451eca33555e4652807dc52962040e62cf80c
@@ -2188,8 +2194,8 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Feb 26 23:41:54 2018 +0000
 
     remove unneeded disfunctional debian/anon-apps-config.maintscript
-    
-    Doesn’t actually work (dpkg-mainscript-helper refuses) since the conf files to be deleted were owned by the previously installed packages, not anon-apps-config.
+
+    Doesn_t actually work (dpkg-mainscript-helper refuses) since the conf files to be deleted were owned by the previously installed packages, not anon-apps-config.
 
 commit cad3cd8c69b41986b3c498a98b6b030e302fecbf
 Author: Patrick Schleizer <adrelanos@riseup.net>
@@ -2202,9 +2208,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Feb 26 21:34:51 2018 +0000
 
     remove no longer needed /etc/X11/Xsession.d/ config files
-    
+
     to clean up environment variables
-    
+
     this also prevents crashes due to long environment variable bug
 
 commit 3c395746ae515f2206ae4308691ecfea5378b6c9
@@ -2230,9 +2236,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 23 14:56:48 2018 +0000
 
     disable Compositing to improve performance
-    
+
     as suggested by @HulaHoopWhonix
-    
+
     https://forums.whonix.org/t/whonix-14-increase-ram-to-1024-mb
 
 commit f6c1ae52cd5b5169da04b6f2bdd069ede3fe9f57
@@ -2288,7 +2294,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Jan 2 15:00:13 2018 +0000
 
     disable systemd-resolved
-    
+
     https://phabricator.whonix.org/T762
 
 commit 6c462ab17162b4b4a68a11d515ab7b939cffbfc1
@@ -2375,7 +2381,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 17 12:50:52 2017 +0000
 
     fixed debian/changelog
-    
+
     added changelog.upstream
 
 commit 9854d9399c86603a41c44df8f4c1777e35e4c3c5
